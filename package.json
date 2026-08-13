@@ -1,0 +1,31 @@
+  "name": "jarvis-backend",
+  "version": "1.0.0",
+  "description": "Cerebro de Jarvis - Asistente IA personal",
+  "main": "jarvis-backend.js",
+  "scripts": {
+    "start": "node jarvis-backend.js",
+    "dev": "nodemon jarvis-backend.js"
+  },
+  "keywords": [
+    "jarvis",
+    "ai",
+    "assistant",
+    "pepe"
+  ],
+  "author": "Pepe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@anthropic-ai/sdk": "^0.9.0",
+    "@supabase/supabase-js": "^2.38.4",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
